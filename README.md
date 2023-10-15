@@ -16,6 +16,12 @@ In this scenario, we build a LSTM network for the data set and scenario describe
 
 This tutorial uses [keras](https://keras.io/) deep learning library with [Tensorflow](https://www.tensorflow.org/) as the back end.
 
+# Team Data Science Process
+
+![Team Data Science Process lifecycle.](img\tdsp-lifecycle2.png "Team Data Science Process lifecycle.")
+
+The Team Data Science Process (TDSP) is an agile, iterative data science methodology to deliver predictive analytics solutions and intelligent applications efficiently. TDSP helps improve team collaboration and learning by suggesting how team roles work best together. TDSP includes best practices and structures from Microsoft and other industry leaders to help toward successful implementation of data science initiatives. The goal is to help companies fully realize the benefits of their analytics program. [Learn More Here](https://learn.microsoft.com/en-us/azure/architecture/data-science-process/overview)
+
 # Prerequisites
 
 - An [Azure account](https://azure.microsoft.com/en-us/free/) (free trials are available).
@@ -42,4 +48,10 @@ Select the The Data Ingestion Jupyter Notebook in the `LSTM/1_data_ingestion_and
 
 The Model Building Jupyter Notebook in `LSTM/2_model_building_and_evaluation_deploy.ipnyb` reads the persisted training and test data sets from local storage and builds a LSTM network. The LSTM model is built using the training data set with two layers plus dropout to prevent overfitting. The model performance is measured on the test set. The resulting model is serialized and stored in the local compute context for use in the operationalization task. MLFlow has been integrated into this note book so you can monitor the progress of the runs in the Azure ML Studio under Jobs.
 
-The operationalization takes the stored model and builds required functions and schema for calling the model on an Azure hosted web service. THe notebook includes the code to register the model and deploy it as an Online Endpoint.
+The operationalization takes the stored model and builds required functions and schema for calling the model on an Azure hosted web service. The notebook includes the code to register the model and deploy it as an Online Endpoint.
+
+# Task 3: Responsible AI
+
+Responsible Artificial Intelligence (Responsible AI) is an approach to developing, assessing, and deploying AI systems in a safe, trustworthy, and ethical way. AI systems are the product of many decisions made by those who develop and deploy them. From system purpose to how people interact with AI systems, Responsible AI can help proactively guide these decisions toward more beneficial and equitable outcomes. That means keeping people and their goals at the center of system design decisions and respecting enduring values like fairness, reliability, and transparency.
+
+[Learn More Here](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2)
