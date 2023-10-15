@@ -26,7 +26,7 @@ The Team Data Science Process (TDSP) is an agile, iterative data science methodo
 
 - An [Azure account](https://azure.microsoft.com/en-us/free/) (free trials are available).
 - An Azure Machine learning Workspace.
-- Azure Machine Learning Compute Instance, CPU or GPU will work, however the LSTM NN will create about 30%-40% on a GPU instance.
+- Azure Machine Learning Compute Instance, CPU or GPU will work, however the LSTM NN will create about 30%-40% faster on a GPU instance.
 
 # Let's Begin
 
