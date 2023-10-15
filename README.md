@@ -18,7 +18,7 @@ This tutorial uses [keras](https://keras.io/) deep learning library with [Tensor
 
 # Team Data Science Process
 
-![Team Data Science Process lifecycle.](img\tdsp-lifecycle2.png "Team Data Science Process lifecycle.")
+![Team Data Science Process lifecycle.](img/tdsp-lifecycle2.png "Team Data Science Process lifecycle.")
 
 The Team Data Science Process (TDSP) is an agile, iterative data science methodology to deliver predictive analytics solutions and intelligent applications efficiently. TDSP helps improve team collaboration and learning by suggesting how team roles work best together. TDSP includes best practices and structures from Microsoft and other industry leaders to help toward successful implementation of data science initiatives. The goal is to help companies fully realize the benefits of their analytics program. [Learn More Here](https://learn.microsoft.com/en-us/azure/architecture/data-science-process/overview)
 
