@@ -38,7 +38,7 @@ Return to the Jupyter Browser and navigate to teh location you cloned the repo.
 
 Select the The Data Ingestion Jupyter Notebook in the `LSTM/1_data_ingestion_and_preparation.ipnyb` loads the three input data sets into pandas dataframe format, prepares the data for the modelling and does some preliminary data visualization. The data sets are persisted to a local directory for use in the model building and evaluation task. Make sure you select the **Python 3.8 - Pytorch and Tensorflow** Kernel or newer.
 
-# Task 2: Model Building & Evaluation
+# Task 2: Model Building & Evaluation & Deploy
 
 The Model Building Jupyter Notebook in `LSTM/2_model_building_and_evaluation_deploy.ipnyb` reads the persisted training and test data sets from local storage and builds a LSTM network. The LSTM model is built using the training data set with two layers plus dropout to prevent overfitting. The model performance is measured on the test set. The resulting model is serialized and stored in the local compute context for use in the operationalization task. MLFlow has been integrated into this note book so you can monitor the progress of the runs in the Azure ML Studio under Jobs.
 
